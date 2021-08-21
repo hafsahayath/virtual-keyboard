@@ -100,6 +100,7 @@ body {
   width: 63px;
   height: 30px;
   text-align: center;
+  padding-top: 5px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
   border: 2px solid #000000;
   box-sizing: border-box;
@@ -121,4 +122,17 @@ body {
   box-sizing: border-box;
   box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
   border-radius: 5px;
+  padding-top: 5px;
+}
+
+.align-left{
+  align-self: flex-start;
+  padding-left: 8px;
+  margin-bottom: 5px;
+}
+
+.align-right {
+  align-self: flex-end;
+  padding-right: 8px;
+  margin-bottom: 5px;
 }
