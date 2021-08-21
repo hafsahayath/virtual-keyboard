@@ -1,0 +1,124 @@
+@import url(//db.onlinewebfonts.com/c/23c8ec0d7b298e340b59bd32a7e661f3?family=SF+Compact+Display);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "SF Compact Display", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.keyboard {
+  width: 1027px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 14.52%, rgba(255, 255, 255, 0) 87.38%), #626166;
+  font-weight: normal;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: repeat(13, 62px) 95px;
+  grid-auto-rows: 60px;
+  grid-gap: 8px;
+} 
+
+.row2 {
+  display: grid;
+  grid-template-columns: 95px repeat(13, 62px);
+  grid-auto-rows: 60px;
+  grid-gap: 8px;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 113px repeat(11, 62px) 114px;
+  grid-auto-rows: 60px;
+  grid-gap: 8px;
+}
+
+.row4 {
+  display: grid;
+  grid-template-columns: 147px repeat(10, 62px) 150px;
+  grid-auto-rows: 60px;
+  grid-gap: 8px;
+}
+
+.row5 {
+  display: grid;
+  grid-template-columns: repeat(3, 62px) 78px 342px 78px 62px 203px;
+  grid-auto-rows: 60px;
+  grid-gap: 8px;
+  margin-bottom: 0px;
+}
+
+.row .keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
+  border: 2px solid #000000;
+  box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
+} 
+
+.row .keys span:last-child {
+  margin-top: 5px;
+}
+
+.row5 .arrows {
+ display: flex;
+ background: none;
+ border: none;
+ box-shadow: none;
+}
+
+.row5 .arrows .first-row {
+  width: 63px;
+  height: 30px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+}
+
+.row5 .arrows .second-row {
+  display: grid;
+  grid-template-columns: repeat(3, 63px);
+  grid-auto-rows: 29px;
+  grid-gap: 5px;
+  text-align: center;
+}
+
+.row5 .arrows .second-row > div {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+}
