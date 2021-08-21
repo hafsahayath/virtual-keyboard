@@ -82,7 +82,7 @@ body {
   border-radius: 5px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
   border: 2px solid #000000;
-  box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.15);
 } 
 
 .row .keys span:last-child {
@@ -104,7 +104,7 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
   border: 2px solid #000000;
   box-sizing: border-box;
-  box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.15);
   border-radius: 5px;
 }
 
@@ -120,7 +120,7 @@ body {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.06) 100%), #191A1F;
   border: 2px solid #000000;
   box-sizing: border-box;
-  box-shadow: inset 0px 3px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.15);
   border-radius: 5px;
   padding-top: 5px;
 }
@@ -145,6 +145,6 @@ body {
 
 .align-right-bottom {
   padding-top: 20px;
-  padding-right: 8px;
+  padding-right: 10px;
   align-self: flex-end;
 }
